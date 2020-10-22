@@ -1,14 +1,12 @@
-import React, {Component} from 'react';
+import React from 'react';
 
-class Content extends Component {
-    render(){
+function Content(props) {
       return(
         <article>
-            <h2>{this.props.title}</h2>
-            {this.props.desc}
+            <h2>{props.title}</h2>
+            {props.desc}
         </article>
       );
-    }
   }
 
   export default Content
