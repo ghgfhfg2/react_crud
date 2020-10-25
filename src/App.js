@@ -36,7 +36,7 @@ class App extends Component {
     }
   }
   getContent(){
-    let _title, _desc, _article = null;
+    let _title, _desc, _article = null
     if(this.state.mode === "welcome"){
       _title = this.state.welcome.title;
       _desc = this.state.welcome.desc;
