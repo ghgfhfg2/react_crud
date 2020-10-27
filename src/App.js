@@ -31,7 +31,7 @@ class App extends Component {
     for(let i=0; i<this.state.contents.length; i++){
       let data = this.state.contents[i];
       if(data.id === this.state.selected_id){         
-        return data;
+        return data
       }
     }
   }
