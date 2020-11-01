@@ -15,7 +15,7 @@ function Control(props) {
           <button
             onClick={function(e){
               e.preventDefault()
-              props.onChangeMode('update');
+              props.onChangeMode('update')
             }}
           >Update</button>
         </li>
