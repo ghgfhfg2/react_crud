@@ -6,7 +6,7 @@ function Control(props) {
         <li>
           <button
             onClick={function(e){
-              e.preventDefault();
+              e.preventDefault()
               props.onChangeMode('create');
             }}
           >Create</button>
